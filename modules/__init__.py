@@ -1,2 +1,2 @@
 from .imagereader import ImageReader
-from .platereader import PlateReader
+from .platerecognizer import PlateRecognizer
