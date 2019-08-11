@@ -1,7 +1,6 @@
 import pytesseract
 
 
-
 class ImageReader:
     def __init__(self, path, trained_set):
         pytesseract.pytesseract.tesseract_cmd = path
