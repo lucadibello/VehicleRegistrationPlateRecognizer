@@ -10,7 +10,7 @@ def main():
 
     # PlateReader object, used to get only the plate as an image
     plate_scanner = PlateReader("assets/mini_image.jpg")
-    plate_scanner.get_plate()
+    plate = plate_scanner.get_plate(plate_scanner.detect_plate_corners(), crop=False)
 
 if __name__ == '__main__':
     main()
